@@ -174,7 +174,7 @@ def main():
                         help='The epsilon for L_infinity perturbation')
     parser.add_argument('--n', type=int, default=10,
                         help='The number of specs to generate')
-    parser.add_argument('--seed', type=int, default=42,
+    parser.add_argument('seed', type=int, default=42,
                         help='Random seed for idx generation')
     parser.add_argument("--network", type=str, default=None,
                         help="Network to evaluate as .onnx file.")
